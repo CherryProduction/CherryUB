@@ -29,4 +29,28 @@ Version: Windows
 Команда: 
 cd CherryUB && python3 main.py
 
+English:
+
+CherryUserbot User Guide and Installation
+
+Installation - Termux/Linux Version:
+
+pkg update -y && pkg install python3 wget -y && termux-wake-lock && wget -O CherryUB.zip https://github.com/CherryProduction/CherryUB/raw/main/CherryUB.zip && (unzip CherryUB.zip && rm -rf CherryUB.zip && cd CherryUB && python3 main.py)
+
+Note: If you are installing via Termux, it is important to download Termux through a browser. Using Termux from Google Play will not work.
+
+Installation - Windows Version:
+
+1. Download the zip file from GitHub.
+2. Extract the file to a convenient location.
+3. Run the "windows.bat" file.
+
+To verify that your userbot has started successfully, try using the /help command.
+
+Once your userbot is installed and you have turned it off, you do not need to reinstall it.
+
+Command: 
+cd CherryUB && python3 main.py
+
  
+Подписывайтесь на наш Telegram-канал. — https://t.me/CherryUserBot
